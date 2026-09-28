@@ -1,0 +1,272 @@
+2026-09-28T01:31:54.419560Z  INFO herdr::api::server: api server listening path=/home/irdali/.config/herdr/herdr.sock
+2026-09-28T01:31:54.420868Z  INFO herdr::persist::io: session file is missing event="persist.restore" subsystem="persist" outcome="missing" path=/home/irdali/.config/herdr/session.json
+2026-09-28T01:31:54.420883Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-09-28T01:31:54.471586Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-28T01:31:54.472066Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=40 cols=120 scrollback_limit_bytes=10000000
+2026-09-28T01:31:54.472912Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=389186
+2026-09-28T01:31:54.473051Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-09-28T01:31:54.473054Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T01:31:54.473056Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T01:31:54.473063Z  INFO herdr::server::headless::bootstrap: created startup workspace cwd=/home/irdali
+2026-09-28T01:31:54.473099Z  INFO herdr::server::headless: client protocol socket listening path=/home/irdali/.config/herdr/herdr-client.sock
+2026-09-28T01:31:54.473118Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/irdali/.config/herdr/herdr.sock client_socket=/home/irdali/.config/herdr/herdr-client.sock
+2026-09-28T01:31:54.473182Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=389156
+2026-09-28T01:31:54.741783Z  INFO herdr::server::headless: client connected client_id=2 cols=54 rows=23 cell_width_px=8 cell_height_px=16 surface_active=true render_encoding=SemanticFrame
+2026-09-28T01:31:59.474805Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=1
+2026-09-28T01:32:09.592668Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="opencode"
+2026-09-28T01:34:10.938638Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(391970)
+2026-09-28T01:34:37.359913Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(391970)
+2026-09-28T01:34:42.340142Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=1
+2026-09-28T01:34:45.486245Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T01:34:45.493109Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T01:34:49.224229Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=57 cols=185 scrollback_limit_bytes=10000000
+2026-09-28T01:34:49.225343Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=393052
+2026-09-28T01:34:49.225517Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=2
+2026-09-28T01:34:49.225521Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-09-28T01:34:49.225524Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-09-28T01:34:51.521165Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-09-28T01:34:51.521190Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-09-28T01:34:53.971495Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T01:34:53.971523Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T01:34:53.971544Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T01:34:53.971548Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T01:34:58.973039Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T01:54:29.939121Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(OpenCode) agent=None pgid=Some(389186)
+2026-09-28T01:54:33.677188Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-09-28T01:54:33.677211Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-09-28T01:54:33.677231Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-09-28T01:54:33.677233Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-09-28T01:54:38.678645Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T01:54:41.084444Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(420016)
+2026-09-28T01:54:44.222663Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T01:54:44.222692Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T01:54:44.222725Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T01:54:44.222730Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T01:54:47.499340Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(420269)
+2026-09-28T01:54:49.224994Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T01:54:53.184220Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T01:54:53.184249Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T01:54:53.593551Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-09-28T01:54:53.593575Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-09-28T01:54:53.593594Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-09-28T01:54:53.593596Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-09-28T01:54:58.594326Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T01:56:13.118748Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=57 cols=185 scrollback_limit_bytes=10000000
+2026-09-28T01:56:13.119943Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=422790
+2026-09-28T01:56:13.120087Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-09-28T01:56:16.288465Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-09-28T01:56:16.288542Z  INFO herdr::pane: pane session terminated pane=3 pid=422790 signal=Hangup
+2026-09-28T01:56:19.207736Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-09-28T01:56:19.207821Z  INFO herdr::pane: pane session terminated pane=2 pid=393052 signal=Hangup
+2026-09-28T01:56:21.200566Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=57 cols=185 scrollback_limit_bytes=10000000
+2026-09-28T01:56:21.202074Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=422870
+2026-09-28T01:56:21.202212Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T01:56:26.206945Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=1
+2026-09-28T01:56:26.270397Z  INFO herdr::pane: agent changed pane=4 previous_agent=None agent=Some(Claude) process=claude pgid=Some(422991)
+2026-09-28T01:56:42.283486Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T01:56:47.284496Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=1
+2026-09-28T02:00:16.686492Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=57 cols=93 scrollback_limit_bytes=10000000
+2026-09-28T02:00:16.687677Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=428263
+2026-09-28T02:00:16.687855Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=5
+2026-09-28T02:00:16.687860Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:00:16.687863Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:00:21.690802Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:00:27.878008Z  INFO herdr::logging: workspace renamed event="workspace.rename" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:00:30.280505Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(428571)
+2026-09-28T02:00:32.880025Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:00:33.292381Z  INFO herdr::pane: agent changed pane=5 previous_agent=Some(OpenCode) agent=None pgid=Some(428263)
+2026-09-28T02:01:53.050555Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(430531)
+2026-09-28T02:01:54.473909Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-28T02:04:04.005728Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(430531)
+2026-09-28T02:04:08.349928Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:04:51.820305Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:04:51.820342Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:04:51.820368Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:04:51.820371Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:04:53.609009Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:04:54.904759Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:04:59.908988Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:05:12.227013Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:05:17.228653Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:05:19.284796Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:05:24.286962Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:06:10.780124Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:06:19.209544Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:06:19.209570Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:06:24.211302Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:11:59.987406Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:11:59.987428Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:11:59.987450Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:11:59.987452Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:12:02.837503Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:12:07.843962Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:13:39.362198Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:13:42.246029Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:13:47.247305Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:13:57.176300Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:13:57.506360Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:14:01.374605Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:14:06.376290Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:14:06.782449Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:14:11.784234Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:14:17.954765Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:14:21.016374Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:14:26.020513Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:14:26.058518Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:14:28.296161Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(420269)
+2026-09-28T02:14:30.868715Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:14:35.874460Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:15:15.961145Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:15:19.797006Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:15:24.798361Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:15:33.565278Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:15:36.119112Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:15:36.464960Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:15:37.215076Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:15:37.215102Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:15:42.216651Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:18:10.366159Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:18:10.366193Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:18:10.366220Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:18:10.366225Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:18:15.367641Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:18:20.104040Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:18:25.104680Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:18:28.934184Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:18:33.935617Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:20:12.607127Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:20:14.017229Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:20:14.017259Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:20:19.018891Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:21:42.859107Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:21:42.859131Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:21:42.859153Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:21:42.859155Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:21:44.799777Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:21:47.691480Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:21:52.692311Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:23:35.278032Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:23:40.283943Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:23:46.994074Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:23:51.995468Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:24:31.264468Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:24:32.110675Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:24:32.110697Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:24:37.113203Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:27:24.960276Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:27:24.960296Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:27:24.960317Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:27:24.960320Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:27:25.971566Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:27:30.973068Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:31:10.800951Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:31:15.802669Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:31:19.767252Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:31:24.769062Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:31:54.475273Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-28T02:34:20.542912Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:34:20.542937Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:34:20.542960Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:34:20.542962Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:34:25.544343Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:38:51.149419Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:38:51.149443Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:38:51.149465Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:38:51.149468Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:38:56.150205Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:40:03.391240Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:40:03.391264Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:40:03.391284Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:40:03.391286Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:40:08.392727Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:44:54.416335Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:44:54.425014Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:44:54.425051Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:44:54.425056Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:44:59.435481Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:45:56.083443Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:45:56.083469Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:45:56.083494Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T02:45:56.083496Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T02:46:01.084843Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:49:54.927578Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:49:54.927602Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:49:54.927622Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T02:49:54.927624Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:49:59.929119Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:56:58.009299Z  INFO herdr::server::headless: client detached client_id=2
+2026-09-28T02:58:30.201611Z  INFO herdr::api::server: api server listening path=/home/irdali/.config/herdr/herdr.sock
+2026-09-28T02:58:30.207125Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-28T02:58:30.209511Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=7820
+2026-09-28T02:58:30.212297Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=2
+2026-09-28T02:58:30.212580Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-09-28T02:58:30.290238Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-28T02:58:30.290740Z  INFO herdr::server::headless::bootstrap: restored session already has workspaces; ignoring startup cwd cwd=/home/irdali
+2026-09-28T02:58:30.291014Z  INFO herdr::server::headless: client protocol socket listening path=/home/irdali/.config/herdr/herdr-client.sock
+2026-09-28T02:58:30.291040Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/irdali/.config/herdr/herdr.sock client_socket=/home/irdali/.config/herdr/herdr-client.sock
+2026-09-28T02:58:30.291477Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=7794
+2026-09-28T02:58:30.308390Z  INFO herdr::server::headless: client connected client_id=2 cols=54 rows=23 cell_width_px=8 cell_height_px=16 surface_active=true render_encoding=SemanticFrame
+2026-09-28T02:58:30.327386Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=21 cols=25 scrollback_limit_bytes=10000000
+2026-09-28T02:58:30.328151Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=7846
+2026-09-28T02:58:30.328303Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=23 cols=53 scrollback_limit_bytes=10000000
+2026-09-28T02:58:30.328921Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=7851
+2026-09-28T02:58:30.880554Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(7865)
+2026-09-28T02:58:30.881769Z  INFO herdr::pane: agent changed pane=3 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(7866)
+2026-09-28T02:58:35.331128Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:58:47.209010Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:58:47.709242Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:58:52.711235Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:59:01.138559Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:59:06.139355Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:59:40.029213Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T02:59:40.733833Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(OpenCode) agent=None pgid=Some(7846)
+2026-09-28T02:59:45.248775Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(10737)
+2026-09-28T02:59:45.433515Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:59:53.001515Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(10737)
+2026-09-28T02:59:55.662715Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T02:59:58.615319Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:00:03.617086Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T03:00:08.032172Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(11483)
+2026-09-28T03:00:33.919818Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:00:38.922110Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T03:00:55.695612Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:01:00.696600Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T03:01:18.969839Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:01:22.368663Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:01:23.969002Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:01:28.970474Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T03:02:49.814015Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-09-28T03:02:49.814753Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-09-28T03:02:55.445369Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:02:55.445394Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:03:00.446913Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T03:04:09.333767Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-09-28T03:04:09.333953Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-09-28T03:04:20.649866Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-09-28T03:04:20.650499Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-09-28T03:04:22.411584Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:04:25.122182Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=57 cols=93 scrollback_limit_bytes=10000000
+2026-09-28T03:04:25.123471Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=17053
+2026-09-28T03:04:25.123599Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:04:26.721652Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-09-28T03:04:26.721746Z  INFO herdr::pane: pane session terminated pane=4 pid=17053 signal=Hangup
+2026-09-28T03:04:28.322684Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=57 cols=93 scrollback_limit_bytes=10000000
+2026-09-28T03:04:28.323767Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=17103
+2026-09-28T03:04:28.323871Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:04:31.185180Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:04:31.185202Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:04:32.267877Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:04:32.267901Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:04:36.198859Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T03:04:36.198874Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T03:04:36.198896Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-28T03:04:36.198898Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-28T03:04:41.200532Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T03:05:32.920078Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T03:05:32.920100Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:05:32.920125Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-28T03:05:32.920128Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-28T03:05:37.922102Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2
+2026-09-28T03:05:39.412515Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 0, signal: None }"
+2026-09-28T03:05:39.412627Z  INFO herdr::pane: pane session terminated pane=5 pid=17103 signal=Hangup
+2026-09-28T03:05:44.414540Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/irdali/.config/herdr/session.json workspaces=2

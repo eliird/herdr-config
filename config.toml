@@ -1,0 +1,16 @@
+onboarding = false
+[keys]
+# Keeps your prefix as Ctrl+b (same as tmux default)
+prefix = "ctrl+b"
+
+# --- Tmux Split Pane Bindings ---
+# Herdr actions for splitting are split_vertical and split_horizontal
+split_vertical = "prefix+%"     # Splits side-by-side (Left/Right)
+split_horizontal = "prefix+\""   # Splits top-to-bottom (Up/Down)
+
+# --- Arrow Keys Pane Movement ---
+focus_pane_left = "prefix+left"
+focus_pane_right = "prefix+right"
+focus_pane_up = "prefix+up"
+focus_pane_down = "prefix+down"
+
