@@ -14,3 +14,8 @@ focus_pane_right = "prefix+right"
 focus_pane_up = "prefix+up"
 focus_pane_down = "prefix+down"
 
+# --- Arrow Keys Workspace Movement ---
+# Shift+Up/Down (after Ctrl+b prefix) cycles between workspaces
+previous_workspace = "prefix+shift+up"
+next_workspace = "prefix+shift+down"
+
